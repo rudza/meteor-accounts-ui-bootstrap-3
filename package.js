@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'rudolfs:accounts-ui-bootstrap-3',
 	summary: 'Bootstrap-styled accounts-ui with multi-language support.',
-	version: '1.2.89',
+	version: '1.2.90',
 	git: "https://github.com/rudza/meteor-accounts-ui-bootstrap-3"
 })
 
