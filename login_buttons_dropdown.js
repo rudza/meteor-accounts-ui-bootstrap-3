@@ -688,6 +688,7 @@
 				}
 			} else {
 				loginButtonsSession.infoMessage(i18n('infoMessages.passwordChanged'));
+				Accounts._loginButtonsSession.set('inChangePasswordFlow', false);
 
 				// wait 3 seconds, then expire the msg
 				Meteor.setTimeout(function() {
